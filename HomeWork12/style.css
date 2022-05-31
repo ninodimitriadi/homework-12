@@ -1,0 +1,72 @@
+.task1 {
+    position: relative;
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+    border: solid 1px blue;
+}
+.square {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: solid black 1px;
+}
+.task_4 {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    border: solid 1px;
+    margin: auto;
+    background-color: gold;
+    box-shadow: 30px 30px 15px darkorange;
+}
+#cursore {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    border: solid red;
+    box-sizing: border-box;
+    transition: 0.1s;
+}
+#lilsquare{
+    width: 150px;
+    height: 150px;
+    border: none;
+    background-color: hotpink;
+    margin: auto;
+    box-shadow: 10px 10px 5px pink;
+}
+.oneclick{
+    width: 150px;
+    height: 150px;
+    border: none;
+    background-color: hotpink;
+    margin: auto;
+    box-shadow: 10px 10px 5px pink;
+    border-radius: 30%;
+}
+.doubleclick {
+    width: 150px;
+    height: 150px;
+    border: none;
+    background-color: hotpink;
+    margin: auto;
+    box-shadow: 10px 10px 5px pink;
+    border-radius: 50%;
+}
+.space {
+    position: relative;
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+    border: solid;
+}
+#img {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    top: 0px;
+    left: 0px;
+}
